@@ -12,6 +12,6 @@ function getProduct(id){
 }
 
 function showProduct(product){
-  const buttons =`<a href="/edit.html?id=${product.id}" class="btn btn-primary">Edit Product</a>`;
-  addProductToPage(product, buttons, productsSection);
+  const buttons =`<a href="/edit.html?id=${product.id}" class="btn btn-secondary">Edit Product</a>`;
+  addProductToPage(product, 12, buttons, productsSection);
 }
